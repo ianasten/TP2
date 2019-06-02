@@ -1,0 +1,6 @@
+#ifndef POSPAGO_H_INCLUDED
+#define POSPAGO_H_INCLUDED
+
+
+
+#endif // POS_PAGO_H_INCLUDED
