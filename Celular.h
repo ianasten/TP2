@@ -1,5 +1,6 @@
 #ifndef CELULAR_H_INCLUDED
 #define CELULAR_H_INCLUDED
+#include "Plano.h"
 using namespace std;
 
 class Celular{

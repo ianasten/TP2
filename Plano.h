@@ -1,5 +1,6 @@
 #ifndef PLANO_H_INCLUDED
 #define PLANO_H_INCLUDED
+#include <iostream>
 using namespace std;
 
 class Plano {
