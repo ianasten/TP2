@@ -8,7 +8,6 @@ private:
     double _NumTelefone;
 public:
 
-
 };
 
 
