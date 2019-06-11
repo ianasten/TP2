@@ -1,6 +1,11 @@
+#include <vector>
+#include <iostream>
+#include "Celular.h"
+
 #ifndef CLIENTE_H_INCLUDED
 #define CLIENTE_H_INCLUDED
 using namespace std;
+
 
 class Cliente{
 private:
