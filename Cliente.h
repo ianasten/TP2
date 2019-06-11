@@ -12,8 +12,9 @@ private:
     string _CPF;
     string _nome;
     string _endereco;
-public:
     vector<Celular> _Celulares; // nao entendi esse daqui
+public:
+
 
 
 
