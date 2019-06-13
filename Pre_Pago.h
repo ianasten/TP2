@@ -1,6 +1,6 @@
 #ifndef PREPAGO_H_INCLUDED
 #define PREPAGO_H_INCLUDED
-#include"Plano.h"
+class Plano;
 using namespace std;
 
 class PrePago: public Plano{

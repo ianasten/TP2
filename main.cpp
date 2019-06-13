@@ -1,4 +1,14 @@
 #include <iostream>
+#include<string>
+class Cliente;
+class Celular;
+class Ligacao;
+class LigacaoDados;
+class LigacaoSimples;
+class Plano;
+class PosPago;
+class PrePago;
+class Data;
 
 using namespace std;
 
