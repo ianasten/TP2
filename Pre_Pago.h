@@ -1,12 +1,13 @@
 #ifndef PREPAGO_H_INCLUDED
 #define PREPAGO_H_INCLUDED
-#include"Plano.h"
+#include "Plano.h"
+#include "Data.h"
 using namespace std;
 
 class PrePago: public Plano{
 private:
     double _credito;
-    Date _validade;
+    Data _validade;
 public:
 
 };

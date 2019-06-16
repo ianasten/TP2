@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -36,17 +38,22 @@
 		<Unit filename="Celular.h" />
 		<Unit filename="Cliente.cpp" />
 		<Unit filename="Cliente.h" />
+		<Unit filename="Data.h" />
+		<Unit filename="Interface.cpp" />
+		<Unit filename="Interface.h" />
 		<Unit filename="Ligacao.cpp" />
 		<Unit filename="Ligacao.h" />
 		<Unit filename="LigacaoDados.cpp" />
 		<Unit filename="LigacaoDados.h" />
 		<Unit filename="LigacaoSimples.cpp" />
 		<Unit filename="LigacaoSimples.h" />
+		<Unit filename="Operadora.cpp" />
+		<Unit filename="Operadora.h" />
 		<Unit filename="Plano.cpp" />
 		<Unit filename="Plano.h" />
-		<Unit filename="PosPago.cpp" />
+		<Unit filename="Pos_Pago.cpp" />
 		<Unit filename="Pos_Pago.h" />
-		<Unit filename="PrePago.cpp" />
+		<Unit filename="Pre_Pago.cpp" />
 		<Unit filename="Pre_Pago.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
