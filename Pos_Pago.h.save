@@ -13,12 +13,8 @@ public:
     PosPago(string nome, double ValorMinuto, double Velocidade, double Franquia, double VelocAlem, Data* vencimento) :
         Plano(nome, ValorMinuto, Velocidade, Franquia, VelocAlem), _vencimento(vencimento){};
     ~PosPago();
-    // bool emDia() função pra ver se tá em dia o pagamento (?)
-    void infoVencimento(Celular celular, Data dataDia);
-    // essa funcao compara dataDia com _validade
-    // se dataDia < _validade => ta tudo OK
-    // se dataDia == _validade => vence hoje
-    // se dataDia > _validade => já venceu e coloca os dados do cliente e do celular do plano que venceu
+    // bool emDia() função pra ver se tá em dia o 
+
 };
 
 

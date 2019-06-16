@@ -27,12 +27,8 @@ class Interface {
         void listarCreditoDValidade();
         void listarExtratoLS();
         void listarExtratoLD();
-        void listarClientes();
-        void listarPlanos();
-        void listarCelulares();
-        void infoVencimentoFatura();
-        void infoLimiteFranquia();
-
+        void listarosifin doid
+        
 	    //adicionar data corrente
 };
 

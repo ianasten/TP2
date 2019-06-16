@@ -39,10 +39,10 @@ public:
     void imprimirRegistros(Celular celular, Data data);
     //imprime consumo de dados a partir da data
     //pra cada ligação imprime data, duração, tipo e qtd consumida (custo)
-    void limiteFranquia(Celular celular);
+    void limiteFranquia();
     // vai ver _consumo do celular
     // if _consumo > 0 => tá tudo safe
-    // if _consumo == 0 => informa que a franquia de dados acabou e mostra os dados do cliente e o celular
+    // if _consumo == 0 => informa que a franquia de dados acabou e mostra os dados do 
 };
 
 

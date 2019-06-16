@@ -18,6 +18,10 @@ public:
     // a validade pra 180 dias após a data corrente do sistema
     //tratar exceção
     // PQP TEREMOS QUE COLOCAR A DATA CORRENTE DO SISTEMA
+    void infoVencimento(Celular celular, Data dataDia); 
+    // essa funcao compara dataDia com _validade
+    // se dataDia < _validade => ta tudo OK
+    // se dataDia == _validade => 
 };
 
 

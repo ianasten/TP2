@@ -180,27 +180,12 @@ void Interface::listarCelulares(){
 }
 
 void Interface::infoVencimentoFatura(){
-    double numeroCelular;
-    Data data;
-    cout << "Qual o numero do celular: ";
-    cin >> numeroCelular;
-    cout << endl;
-    cout << "Qual a data de hoje: ";
-    cin >> data;
-    cout << endl;
-    //chama funcao do pospago
+    
 
 }
 
 void Interface::infoLimiteFranquia(){
-    double numeroCelular;
-    Data data;
-    cout << "Qual o numero do celular: ";
-    cin >> numeroCelular;
-    cout << endl;
-    cout << "Qual a data de hoje: ";
-    cin >> data;
-    cout << endl;
+
 }
 
 

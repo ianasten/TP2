@@ -19,9 +19,7 @@ class Operadora {
 		void adicionarPlano(Plano &p);
 		Cliente buscaCliente(string nome);
 		Plano buscaPlano(string plano);
-		void imprimeClientes(); // falta cpp
-		void imprimePlanos(); // falta cpp
-		void imprimeCelulares(); // falta cpp
+		void imprimeClientes(vector<Cliente> clientes)
 };
 
 #endif // OPERADORA_H

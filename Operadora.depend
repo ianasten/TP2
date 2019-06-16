@@ -92,3 +92,101 @@
 	"Cliente.h"
 	"Plano.h"
 
+1560695466 source:d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\celular.cpp
+	"Celular.h"
+
+1560695466 d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\celular.h
+	<vector>
+
+1560695466 source:d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\cliente.cpp
+	"Cliente.h"
+
+1560695466 d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\cliente.h
+	<vector>
+	<iostream>
+
+1560695466 source:d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\ligacao.cpp
+	"Ligacao.h"
+
+1560715186 d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\ligacao.h
+	"Data.h"
+	"Celular.h"
+
+1560695466 source:d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\ligacaodados.cpp
+	"LigacaoDados.h"
+
+1560720643 d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\ligacaodados.h
+	"Ligacao.h"
+	"Data.h"
+	"Plano.h"
+
+1560695466 source:d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\ligacaosimples.cpp
+	"LigacaoSimples.h"
+
+1560716256 d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\ligacaosimples.h
+	"Ligacao.h"
+	"Data.h"
+
+1560695466 source:d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\main.cpp
+	<iostream>
+	<string>
+
+1560695466 source:d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\operadora.cpp
+	"Operadora.h"
+	<string>
+	<iostream>
+	<vector>
+
+1560717857 d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\operadora.h
+	<string>
+	<iostream>
+	<vector>
+	"Cliente.h"
+	"Plano.h"
+
+1560695466 d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\plano.h
+	<iostream>
+	<string>
+
+1560695466 source:d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\plano.cpp
+	"Plano.h"
+
+1560695466 source:d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\pos_pago.cpp
+	"Pos_Pago.h"
+
+1560712117 d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\pos_pago.h
+	<string>
+	"Plano.h"
+	"Data.h"
+
+1560714602 d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\data.h
+	<string>
+
+1560695466 source:d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\pre_pago.cpp
+	"Pre_Pago.h"
+
+1560720651 d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\pre_pago.h
+	"Plano.h"
+	"Data.h"
+	"Celular.h"
+
+1560715068 source:d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\interface.cpp
+	<iostream>
+	<vector>
+	"Cliente.h"
+	"Plano.h"
+	"Operadora.h"
+	"Interface.h"
+	"Ligacao.h"
+	"Data.h"
+	"Celular.h"
+	<cstdlib>
+
+1560715088 d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\interface.h
+	<string>
+	<iostream>
+	<vector>
+	"Cliente.h"
+	"Plano.h"
+	"Operadora.h"
+
