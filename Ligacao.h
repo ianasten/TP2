@@ -18,7 +18,7 @@ public:
 	void set_Data(Data* dataHora){this->_dataHora = dataHora;};
 	void set_duracao(double duracao){this->_duracao = duracao;};
 	void set_custo(double custo){this->_custo = custo;};
-	virtual void registraLigacao(Celular celular, Data* dataHora, double duracao) = 0;
+	virtual void registraLigacao(Celular* celular, Data* dataHora, double duracao) = 0;
     virtual void imprimirRegistros(Celular celular, Data data) = 0;
 };
 

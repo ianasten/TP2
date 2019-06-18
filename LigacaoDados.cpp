@@ -1,12 +1,15 @@
 #include"LigacaoDados.h"
 #include "Celular.h"
 #include "Plano.h"
+#include"Ligacao.h"
 
-void LigacaoDados::registraLigacao(Celular celular, Data* dataHora, double duracao, TipoDados tipo){
-     const Plano* planinho;
-     planinho = celular.get_plano();
-     _consumo = planinho->get_Franquia();
-    celular.set_Ligacoes(LigacaoDados(dataHora, duracao);
+void LigacaoDados::registraLigacao(Celular* celular, Data* dataHora, double duracao, TipoDados tipo){
+     Ligacao *liga = new LigacaoDados(dataHora,duracao,tipo);
+     celular->get_ligacoes().push_back(liga);
+
+//     push_back(kjwgliubers)
+     //o construtor de ligacao de dados e pushback no vector de ligação do celular
+
 // no cpp a ligacao vai ser
     //contabilizada de acordo com as informações (velocidade, franquia) no plano de Dados
     //tratar exceção
@@ -18,6 +21,7 @@ void LigacaoDados::imprimirRegistros(Celular celular, Data data){
     //pra cada ligação imprime data, duração, tipo e qtd consumida (custo)
 
 }
+
 
 
 

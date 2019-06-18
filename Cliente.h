@@ -1,10 +1,9 @@
-#include <vector>
-#include <iostream>
-class Celular;
-
 #ifndef CLIENTE_H_INCLUDED
 #define CLIENTE_H_INCLUDED
 using namespace std;
+#include <vector>
+#include <iostream>
+class Celular;
 
 class Cliente{
 private:
@@ -15,7 +14,7 @@ private:
 public:
 	Cliente(string nome, string CPF, string endereco, vector<Celular*> Celulares){
 	    _nome=nome; _CPF=CPF; _endereco=endereco; _Celulares=Celulares;}	//construtor
-	//Cliente(const Cliente &c) : _nome(c._nome), _CPF(c._CPF), _endereco(c._endereco), _Celulares(c._Celulares){}; //se a gente não for usar não tem pq ter
+	//Cliente(const Cliente &c) : _nome(c._nome), _CPF(c._CPF), _endereco(c._endereco), _Celulares(c._Celulares){};
 	~Cliente(); // destrutor
 	const string get_CPF(){ return _CPF; };
 	const string get_nome(){ return _nome; };

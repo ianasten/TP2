@@ -9,6 +9,9 @@ private:
     int _mes;
     int _ano;
     string _data;
+    int _minuto;
+    int _hora;
+    string _tudo;
 
 public:
     Data();
@@ -22,6 +25,8 @@ public:
     void set_mes(int mes){this->_mes = mes;};
     void set_ano(int ano){this->_ano = ano;};
     void set_data(string data){this->_data = data;};
+//    void get_hora(){ return _hora };
+//    void get_(){ return _hora };
 
 };
 

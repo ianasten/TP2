@@ -213,3 +213,58 @@
 	"Plano.h"
 	"Operadora.h"
 
+1560889624 source:c:\users\2018102030.cce\downloads\tp2-luanagazzinelli-patch-1\celular.cpp
+	"Celular.h"
+
+1560824587 c:\users\2018102030.cce\downloads\tp2-luanagazzinelli-patch-1\celular.h
+	<vector>
+
+1560889747 source:c:\users\2018102030.cce\downloads\tp2-luanagazzinelli-patch-1\cliente.cpp
+	"Cliente.h"
+
+1560891881 c:\users\2018102030.cce\downloads\tp2-luanagazzinelli-patch-1\cliente.h
+	<vector>
+	<iostream>
+
+1560824587 source:c:\users\2018102030.cce\downloads\tp2-luanagazzinelli-patch-1\interface.cpp
+	<string>
+	<iostream>
+	<vector>
+	"Cliente.h"
+	"Plano.h"
+	"Operadora.h"
+	"Interface.h"
+	"Ligacao.h"
+	"Data.h"
+	"Celular.h"
+	<cstdlib>
+
+1560889417 c:\users\2018102030.cce\downloads\tp2-luanagazzinelli-patch-1\plano.h
+	<iostream>
+	<string>
+
+1560890562 c:\users\2018102030.cce\downloads\tp2-luanagazzinelli-patch-1\operadora.h
+	<string>
+	<iostream>
+	<vector>
+	"Cliente.h"
+	"Plano.h"
+
+1560824587 c:\users\2018102030.cce\downloads\tp2-luanagazzinelli-patch-1\interface.h
+	<string>
+	<iostream>
+	<vector>
+	"Cliente.h"
+	"Plano.h"
+	"Operadora.h"
+
+1560892997 c:\users\2018102030.cce\downloads\tp2-luanagazzinelli-patch-1\ligacao.h
+	"Data.h"
+	"Celular.h"
+
+1560890972 c:\users\2018102030.cce\downloads\tp2-luanagazzinelli-patch-1\data.h
+	<string>
+
+1560824587 source:c:\users\2018102030.cce\downloads\tp2-luanagazzinelli-patch-1\ligacao.cpp
+	"Ligacao.h"
+

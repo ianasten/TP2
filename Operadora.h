@@ -12,11 +12,13 @@ class Operadora {
     private:
 		vector <Cliente*> _clientes;
 		vector <Plano*> _planos;
+		vector <Celular*> _celulares;
 	public:
 		Operadora();
 		~Operadora();
 		void adicionarCliente(Cliente &c);
 		void adicionarPlano(Plano &p);
+		void habilitaCelular(Celular &cel);
 		Cliente buscaCliente(string nome);
 		Plano buscaPlano(string plano);
 		void imprimeClientes(); // falta cpp

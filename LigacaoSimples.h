@@ -11,7 +11,7 @@ public:
     LigacaoSimples(Data* dataHora, double duracao, double custo, double NumTelefone):
         Ligacao(dataHora, duracao, custo), _NumTelefone(NumTelefone) {};
     ~LigacaoSimples();
-    void registraLigacao(Celular celular, Data dataHora, double duracao);
+    void registraLigacao(Celular* celular, Data dataHora, double duracao);
     void imprimeRegistros(Celular celular, Data data); //implementar cpp
 };
 

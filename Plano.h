@@ -18,7 +18,8 @@ public:
 	const string get_nome(){ return _nome; };
 	const double get_ValorMinuto(){ return _ValorMinuto; };
 	const double get_Velocidade(){ return _Velocidade; };
-	const double get_Franquia(){ return _Franquia; };
+
+    double get_Franquia(){ return _Franquia; };
 	const double get_VelocAlem(){ return _VelocAlem; };
 	void set_nome(string nome){this->_nome = nome;};
 	void set_ValorMinuto(double ValorMinuto){this->_ValorMinuto = ValorMinuto;};
