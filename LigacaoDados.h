@@ -32,17 +32,10 @@ public:
     LigacaoDados(Data* dataHora, double duracao, double custo, TipoDados tipo, double Plano::get_Franquia()) :
         Ligacao(dataHora, duracao, custo), _tipo(tipo), _consumo(Plano::get_Franquia()) {};
     ~LigacaoDados();
-    void registraLigacao(Celular celular, Data* dataHora, double duracao); // no cpp a ligacao vai ser
-    //contabilizada de acordo com as informações (velocidade, franquia) no plano de Dados
-    //tratar exceção
-    //dentro dele a gente atualiza o _consumo de acordo com o registro de ligacoes
+    void registraLigacao(Celular celular, Data* dataHora, double duracao);
     void imprimirRegistros(Celular celular, Data data);
-    //imprime consumo de dados a partir da data
-    //pra cada ligação imprime data, duração, tipo e qtd consumida (custo)
     void limiteFranquia(Celular celular);
-    // vai ver _consumo do celular
-    // if _consumo > 0 => tá tudo safe
-    // if _consumo == 0 => informa que a franquia de dados acabou e mostra os dados do cliente e o celular
+
 };
 
 

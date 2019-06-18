@@ -22,23 +22,25 @@
 
 1560460687 c:\users\temp.cce.054\desktop\tp2-luanagazzinelli-patch-1\ligacaodados.h
 
-1560461848 source:d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\celular.cpp
+1560725626 source:d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\celular.cpp
 	"Celular.h"
 
-1560530018 d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\celular.h
+1560821230 d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\celular.h
 	<vector>
 
-1560461848 source:d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\cliente.cpp
+1560725626 source:d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\cliente.cpp
 	"Cliente.h"
 
-1560530018 d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\cliente.h
+1560725626 d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\cliente.h
 	<vector>
 	<iostream>
 
-1560461848 source:d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\ligacao.cpp
+1560725626 source:d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\ligacao.cpp
 	"Ligacao.h"
 
-1560530018 d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\ligacao.h
+1560725626 d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\ligacao.h
+	"Data.h"
+	"Celular.h"
 
 1560461848 source:d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\ligacaodados.cpp
 	"LigacaoDados.h"
@@ -57,7 +59,7 @@
 1560461848 source:d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\plano.cpp
 	"Plano.h"
 
-1560461848 d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\plano.h
+1560725626 d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\plano.h
 	<iostream>
 	<string>
 
@@ -69,7 +71,7 @@
 	"Plano.h"
 	"Data.h"
 
-1560526625 d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\data.h
+1560725626 d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\data.h
 	<string>
 
 1560461848 source:d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\pre_pago.cpp
@@ -85,7 +87,7 @@
 	<iostream>
 	<vector>
 
-1560527697 d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\operadora.h
+1560725626 d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\operadora.h
 	<string>
 	<iostream>
 	<vector>
@@ -183,6 +185,27 @@
 	<cstdlib>
 
 1560715088 d:\arquivos\documentos\faculdade\2019\2019.1\poo\16-06 tp2\tp2-luanagazzinelli-patch-1\interface.h
+	<string>
+	<iostream>
+	<vector>
+	"Cliente.h"
+	"Plano.h"
+	"Operadora.h"
+
+1560818777 source:d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\interface.cpp
+	<string>
+	<iostream>
+	<vector>
+	"Cliente.h"
+	"Plano.h"
+	"Operadora.h"
+	"Interface.h"
+	"Ligacao.h"
+	"Data.h"
+	"Celular.h"
+	<cstdlib>
+
+1560725626 d:\luana\ufmg\4º teórico\poo\tp2 mais novo\tp2-master\tp2-master\interface.h
 	<string>
 	<iostream>
 	<vector>

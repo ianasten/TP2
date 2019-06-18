@@ -78,7 +78,7 @@ void Interface::novoCelular(){
 	cout << '\n';
 	//se for pós pago tem que pedir a data de vencimento da fatura
 	vector<Ligacao*> coco;
-	Celular c(O.buscaCliente(nomeCliente), O.buscaPlano(nomePlano), &coco);
+//	Celular c(O.buscaCliente(nomeCliente), O.buscaPlano(nomePlano), &coco);
 	//tem que continuar
 	system("PAUSE");
 	system("CLS");
@@ -102,7 +102,7 @@ void Interface::registraLigacao(){
     cin >> numeroCelular;
     cout << endl;
     cout << "Qual a hora e data da ligacao: ";
-    cin >> dataHora;
+//    cin >> dataHora;
     cout << endl;
     cout << "Qual a duracao da ligacao em minutos: ";
     cin >> duracaoMin;
@@ -148,7 +148,7 @@ void Interface::listarExtratoLS(){
     cin >> numeroCelular;
     cout << endl;
     cout << "Qual a data para adquirir o extrato: ";
-    cin >> data;
+//    cin >> data;
     cout << endl;
     //imprime na tela todas as ligacoes efetuadas no celular
     //a partir da data informada
@@ -162,7 +162,7 @@ void Interface::listarExtratoLD(){
     cin >> numeroCelular;
     cout << endl;
     cout << "Qual a data para adquirir o extrato: ";
-    cin >> data;
+//    cin >> data;
     cout << endl;
     //mesmo role do LS, chamar a funcao do LD
 }
@@ -186,7 +186,7 @@ void Interface::infoVencimentoFatura(){
     cin >> numeroCelular;
     cout << endl;
     cout << "Qual a data de hoje: ";
-    cin >> data;
+//    cin >> data;
     cout << endl;
     //chama funcao do pospago
 
@@ -199,7 +199,7 @@ void Interface::infoLimiteFranquia(){
     cin >> numeroCelular;
     cout << endl;
     cout << "Qual a data de hoje: ";
-    cin >> data;
+//    cin >> data;
     cout << endl;
 }
 

@@ -17,12 +17,12 @@ private:
 public:
 	Celular(Cliente* cliente, Plano* plano, vector<Ligacao*> ligacoes) {
 	    _numero=_proxNumCelular; _cliente=cliente; _plano=plano; _ligacoes=ligacoes; _proxNumCelular++; } // construtor
-	//~Celular(); // destrutor
+	~Celular(); // destrutor
 	const double get_numero(){ return _numero; };
 	const Cliente* get_cliente(){ return _cliente; };
 	const Plano* get_plano(){ return _plano; };
 	const vector<Ligacao*> get_ligacoes(){ return _ligacoes; };
-	static const double get_proxNumCelular(){ return _proxNumCelular; }; // é assim que faz a função static?
+	static const double get_proxNumCelular(){ return _proxNumCelular; };
 	void set_numero(double numero){this->_numero = numero;};
 	void set_cliente(Cliente* cliente){this->_cliente = cliente;}
 	void set_plano(Plano* plano){this->_plano = plano;}
