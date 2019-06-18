@@ -1,8 +1,12 @@
 #include"LigacaoDados.h"
 #include "Celular.h"
+#include "Plano.h"
 
-void LigacaoDados::registraLigacao(Celular celular, Data* dataHora, double duracao){
-    celular.set_Ligacoes(LigacaoDados(dataHora, duracao)
+void LigacaoDados::registraLigacao(Celular celular, Data* dataHora, double duracao, TipoDados tipo){
+     const Plano* planinho;
+     planinho = celular.get_plano();
+     _consumo = planinho->get_Franquia();
+    celular.set_Ligacoes(LigacaoDados(dataHora, duracao);
 // no cpp a ligacao vai ser
     //contabilizada de acordo com as informações (velocidade, franquia) no plano de Dados
     //tratar exceção

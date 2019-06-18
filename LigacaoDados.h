@@ -29,10 +29,10 @@ private:
     TipoDados _tipo;
     double _consumo;
 public:
-    LigacaoDados(Data* dataHora, double duracao, double custo, TipoDados tipo, double Plano::get_Franquia()) :
-        Ligacao(dataHora, duracao, custo), _tipo(tipo), _consumo(Plano::get_Franquia()) {};
+    LigacaoDados(Data* dataHora, double duracao, double custo, TipoDados tipo) :
+        Ligacao(dataHora, duracao, custo), _tipo(tipo){};
     ~LigacaoDados();
-    void registraLigacao(Celular celular, Data* dataHora, double duracao);
+    void registraLigacao(Celular celular, Data* dataHora, double duracao, TipoDados tipo);
     void imprimirRegistros(Celular celular, Data data);
     void limiteFranquia(Celular celular);
 
